@@ -1,0 +1,43 @@
+body {
+    padding: 30px;
+    font-size: large;
+    font-family: Arial;
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    color: cadetblue;
+}
+
+hr {
+    border-color: darkgray;
+    border-width: 3px;
+}
+
+ol {
+    color: firebrick;
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: upper-roman;
+}
+
+li { 
+    font-size: 30px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3cm;
+}
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+    font-style: italic;
+    color: cadetblue;
+}
+
