@@ -1,21 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <link rel="stylesheet" href="search.css">
     <meta charset="UTF-8">
     <title>Web-сторінки</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Мої улюблені Web-сторінки</h1>
-    <hr>
-    <ol>
-        <li><a href="https://ru.wikipedia.org/">Wikipedia</a></li>
-        <li><a href="https://stackoverflow.com/">Stackoverflow</a></li>
-        <li><a href="https://habr.com/">Habr</a></li>
-        <li><a href="https://nuancesprog.ru/">NOP</a></li>
-        <li><a href="https://pythonist.ru/">Pythonist</a></li>
-    </ol>
-    <hr>
-    <a href="main.html"><img src="left.png" alt="" class="center"></a>
+
+    <table>
+        <tr>
+            <td colspan="3" class="header">
+                <div>
+                    <header>
+                        <h1>Main page heading here</h1>
+                    </header>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="left_col">
+                <ul>
+                    <li><a href="main.html">MainPage</a></li>
+                    <li><a href="first_page.html">FirstPage</a></li>
+                </ul>
+            </td>
+            <td class="center_col">
+                <div>
+                    <h1>Мої улюблені Web-сторінки</h1>
+                    <hr>
+                    <ol>
+                        <li><a href="https://ru.wikipedia.org/">Wikipedia</a></li>
+                        <li><a href="https://stackoverflow.com/">Stackoverflow</a></li>
+                        <li><a href="https://habr.com/">Habr</a></li>
+                        <li><a href="https://nuancesprog.ru/">NOP</a></li>
+                        <li><a href="https://pythonist.ru/">Pythonist</a></li>
+                    </ol>
+                    <hr>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" class="footer">
+                <footer>
+                    <p>Copyright &copy;Chornivka 2021<br>
+                        <a href="mailto:bogdaniftoda@gmail.com">bogdaniftoda@gmail.com</a>
+                    </p>
+                </footer>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>
